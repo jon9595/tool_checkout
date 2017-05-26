@@ -6,3 +6,8 @@ urlpatterns = [
     url(r'^', include('home.urls')),
     url(r'^tools/', include('tools.urls')),
 ]
+
+#Add Django site authentication urls (for login, logout, password management)
+urlpatterns += [
+    url(r'^accounts/', include('django.contrib.auth.urls')),
+]
