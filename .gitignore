@@ -1,3 +1,4 @@
 /tool_checkout/settings.py
 /tool_checkout/wsgi.py
 /tool_checkout/__init__.py
+*/__pycache__/
